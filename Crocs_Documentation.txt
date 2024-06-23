@@ -1,0 +1,54 @@
+# Crocs Women Shoes Scraper
+
+This project is a web scraper designed to collect data on women's shoes from the Crocs website. The scraper uses Python with libraries such as Selenium, BeautifulSoup, and Pandas to extract product information and save it to a CSV file.
+
+## LinkedIn Profile
+[Muhammad Umer Lari](https://www.linkedin.com/in/muhammad-umer-lari-998blndekhipk3bb4b6108/)
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+- You have installed Python 3.x on your machine.
+- You have installed the required libraries:
+  - `time`
+  - `requests`
+  - `beautifulsoup4`
+  - `pandas`
+  - `numpy`
+  - `selenium`
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+    ```sh
+    git clone https://github.com/lari98/crocs-women-shoes-scraper.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```sh
+    cd crocs-women-shoes-scraper
+    ```
+
+3. Install the required Python libraries:
+
+    ```sh
+    pip install requests beautifulsoup4 pandas numpy selenium
+    ```
+
+4. Download the ChromeDriver that matches your Google Chrome version from [here](https://sites.google.com/a/chromium.org/chromedriver/) and place it in a directory, e.g., `F:/chromedriver`.
+
+## Usage
+
+To run the scraper, execute the following command:
+
+```python
+python scraper.py
+
+
+The script will perform the following actions:
+
+Open the Crocs website for women's shoes.
+Extract product details such as product ID, name, badge, price, rating, review count, and link.
+Save the extracted data to a CSV file (WCrocs.csv) in the specified directory.
